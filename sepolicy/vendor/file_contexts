@@ -59,3 +59,6 @@
 
 # Touchfeature
 /dev/xiaomi-touch          u:object_r:touchfeature_device:s0
+
+/dev/block/platform/soc/10000\.ufshc/by-name/system   u:object_r:system_block_device:s0
+/dev/block/platform/soc/10000\.ufshc/by-name/vendor   u:object_r:system_block_device:s0
